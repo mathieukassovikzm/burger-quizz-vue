@@ -1,0 +1,17 @@
+<div class="scores">
+  <div class="score ketchup" v-if="scoreKetchup">
+    <img v-bind:src=bkgImageKetchup alt="">
+    <div class="div-btn">
+      <button class="btn btn-moins ketchup" @click="ketchupMinusOne">-1</button>
+      <button class="btn btn-plus ketchup" @click="ketchupPlusOne">+1</button>
+    </div>
+  </div>
+
+  <div class="score mayo" v-if="scoreMayo">
+    <img v-bind:src=bkgImageMayo alt="">
+    <div class="div-btn">
+      <button class="btn btn-moins mayo" @click="mayoMinusOne">-1</button>
+      <button class="btn btn-plus mayo" @click="mayoPlusOne">+1</button>
+    </div>
+  </div>
+</div>

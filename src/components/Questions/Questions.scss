@@ -1,0 +1,88 @@
+.questions{
+  position: relative;
+  color: $primary;
+  width: 100%;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  text-align: center;background-position: center;
+
+  .txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    h2{
+      margin-bottom: 20px;
+      font-size: $base-size-xxl;
+
+    }
+    .reponses{
+      .rep{
+        display: flex;
+        align-items: center;
+        h3{
+          font-family: fontBurgerQuizzTitle;
+          font-size: 5rem;
+          font-weight: normal;
+          margin-right: 20px;
+        }
+        p{
+          position: relative;
+          top: -8px;
+          font-size: $base-size-xl;
+        }
+      }
+    }
+  }
+
+  &.mayo{
+    background-color: $mayo;
+    background-image: url("./../../assets/questionsMayo.png");
+    .txt{
+      .reponses{
+        .rep{
+          &.rep1.goodrep1, &.rep2.goodrep2, &.rep3.goodrep3, &.rep4.goodrep4{
+            color: $mayo;
+          }
+        }
+      }
+    }
+    .buttons{
+      button{
+        color: $lightMayo;
+        &:hover{
+          color: #000;
+        }
+      }
+    }
+  }
+  &.ketchup{
+    background-color: $ketchup;
+    background-image: url("./../../assets/questionsKetchup.png");
+    .txt{
+      .reponses{
+        .rep{
+          &.rep1.goodrep1, &.rep2.goodrep2, &.rep3.goodrep3, &.rep4.goodrep4{
+            color: $ketchup;
+          }
+        }
+      }
+    }
+    .buttons{
+      button{
+        color: $lightKetchup;
+        &:hover{
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .buttons{
+    button{
+      font-family: fontBurgerQuizzTitle;
+      font-size: 4rem;
+    }
+  }
+}

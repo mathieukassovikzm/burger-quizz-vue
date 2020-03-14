@@ -1,0 +1,33 @@
+<div class="questions mayo">
+  <div class="buttons">
+    <button type="button" name="button" @click="showReponse">
+      Reponse
+    </button>
+    <button type="button" name="button" @click="nextQuestion">
+      Next
+    </button>
+  </div>
+  <div class="rep">
+    <div class="txt">
+      <h2>{{getQuestion}}</h2>
+      <div class="reponses">
+        <div class="rep rep1" :class="getGoodAnswers">
+          <h3>A</h3>
+          <p>{{getRep1}}</p>
+        </div>
+        <div class="rep rep2" :class="getGoodAnswers">
+          <h3>B</h3>
+          <p>{{getRep2}}</p>
+        </div>
+        <div class="rep rep3" :class="getGoodAnswers">
+          <h3>C</h3>
+          <p>{{getRep3}}</p>
+        </div>
+        <div class="rep rep4" :class="getGoodAnswers">
+          <h3>D</h3>
+          <p>{{getRep4}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

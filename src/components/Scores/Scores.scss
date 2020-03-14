@@ -1,0 +1,19 @@
+.scores{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px 0;
+  .score{
+    width: 100%;
+    img{
+      margin: auto;
+      width: 100%;
+    }
+    .div-btn{
+      text-align: center;
+      .btn{
+        margin: 10px 20px;
+      }
+    }
+  }
+}

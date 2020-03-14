@@ -1,0 +1,57 @@
+{
+  "question1" : {
+    "question" : "Une Cuniculicultrice est une jeune femme :",
+    "reponses": {
+      "rep1": "Qui enseigne l'art ancestral du cunnilingus",
+      "rep2": "Qui apprécie l'art ancestral du cunnilingus",
+      "rep3": "Qui collectionne les faiseurs de cunnilingus",
+      "rep4": "Qui élève des lapins"
+    },
+    "goodrep" : "goodrep4"
+  },"question2" : {
+    "question" : "En afganistan, le bouzkachi est",
+    "goodrep" : "goodrep3",
+    "reponses": {
+      "rep1": "La boite la plus branchee de Kaboul",
+      "rep2": "Une lotion apres rasage",
+      "rep3": "Un sport equestre ou on se dispute une chevre decapitee",
+      "rep4": "Un plat à base de ciment"
+    }
+  },"question3" : {
+    "question" : "Une seule de ces propositions est fausse, laquelle ?",
+    "reponses": {
+      "rep1": "Rudolf DIESEL a inventé le DIESEL",
+      "rep2": "Fredrich DOBERMAN a inventé le DOBERMAN",
+      "rep3": "Samuel MORSE a inventé le MORSE",
+      "rep4": "Sebastien levrette a inventé la levrette"
+    },
+    "goodrep" : "goodrep4"
+  },"question4" : {
+    "question" : "Dans l’antiquite, sur quoi les Romains pretaient-ils serment ?",
+    "reponses": {
+      "rep1": "Une bible comme tout le monde",
+      "rep2": "Les lauriers de cesar",
+      "rep3": "Un album d’axterix",
+      "rep4": "Leurs testicules"
+    },
+    "goodrep" : 4
+  },"question5" : {
+    "question" : "Dans quel film a joué Eddie Murphy?",
+    "reponses": {
+      "rep1": "Le Roi de New-York",
+      "rep2": "Un Roi a New-York",
+      "rep3": "Un Prince a New-York",
+      "rep4": "Le Prince de New-York"
+    },
+    "goodrep" : 3
+  },"question6" : {
+    "question" : "En turc, « Hepatite B » se dit? ",
+    "reponses": {
+      "rep1": "Je n’en ai aucune idee",
+      "rep2": "Doner Kebab",
+      "rep3": "Yustlur",
+      "rep4": "Yilzek B"
+    },
+    "goodrep" : 1
+  }
+}
