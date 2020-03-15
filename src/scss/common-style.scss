@@ -1,0 +1,5 @@
+$width-video: 75%;
+.video {
+  width: $width-video;
+  margin: auto (100% - $width-video)/2;
+}

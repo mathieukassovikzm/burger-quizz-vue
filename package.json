@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.4",
     "vue": "^2.6.11",
+    "vue-canvasvideo": "^1.0.0",
     "vue-router": "^3.1.6",
     "vuex": "^3.1.2"
   },
@@ -22,6 +23,7 @@
     "eslint-plugin-vue": "^6.1.2",
     "sass": "^1.26.2",
     "sass-loader": "^8.0.2",
+    "video.js": "^7.6.6",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

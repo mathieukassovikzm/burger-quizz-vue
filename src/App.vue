@@ -1,27 +1,33 @@
 <template>
   <div id="app">
-    <ScreenQuestion/>
+    <div class="header">
+      <img src="./assets/Burger-Quiz-logo.png" alt />
+      <p>
+        Annif
+        <span class="ketchup">BenJ</span> &
+        <span class="mayo">Mamel</span>
+      </p>
+    </div>
+    <div class="body">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 
 <script>
-import ScreenQuestion from './components/ScreenQuestion.vue'
 import { mapActions } from "vuex";
 
 export default {
-  name: 'App',
-  components: {
-    ScreenQuestion
-  },
+  name: "App",
   methods: {
-    ...mapActions('questionsStore', {
-      setQuestionsList: 'fetchQuestions'
-    }),
+    ...mapActions("questionsStore", {
+      setQuestionsList: "fetchQuestions"
+    })
   },
   created() {
     this.setQuestionsList();
   }
-}
+};
 </script>
 
-<style></style>
+<style lang="scss" src="./App.scss"></style>
