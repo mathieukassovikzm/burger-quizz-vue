@@ -1,9 +1,11 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import PageHome from './pages/p-home/p-home';
+import PageIntro from './pages/p-intro/p-intro';
 import PageSelPoivre from './pages/p-sel-poivre/p-sel-poivre';
+import PageMenus from './pages/p-menu/p-menu';
+import PageNuggets from './pages/p-nuggets/p-nuggets';
 import PageBurgerDeLaMort from './pages/p-burger-de-la-mort/p-burger-de-la-mort';
-
 import ScreenQuestion from './components/ScreenQuestion';
 import Questions from './components/Questions/Questions';
 
@@ -14,11 +16,14 @@ Vue.use(VueRouter);
  */
 const routes = [
   { path: '/', component: PageHome, name: 'p-home' },
-  { path: '/sel-poivre', component: PageSelPoivre, name: 'p-sel-poivre' },
+  { path: '/intro', component: PageIntro, name: 'pageIntro' },
+  { path: '/menu', component: PageMenus, name: 'pageMenus' },
+  { path: '/nuggets', component: PageNuggets, name: 'pageNuggets' },
+  { path: '/sel-poivre', component: PageSelPoivre, name: 'pageSelPoivre' },
   {
     path: '/burger-de-la-mort',
     component: PageBurgerDeLaMort,
-    name: 'p-burger-de-la-mort'
+    name: 'pageBurger2laMort'
   },
   {
     path: '/question',

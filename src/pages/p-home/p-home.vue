@@ -11,8 +11,7 @@ export default {
   methods: {
     start() {
       this.$router.push({
-        name: 'screenQuestion',
-        params: { id: 1 }
+        name: 'pageIntro'
       });
     }
   }
