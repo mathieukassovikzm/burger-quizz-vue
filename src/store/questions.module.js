@@ -2,6 +2,11 @@ import dataQuizAnnifBenjMamel from './data/QuizAnnifBenjMamel';
 
 const state = {
   countQuestion: 0,
+  nbStartQuestionsNuggets: 8,
+  nbStartQuestionsMenu: 8,
+  nbStartQuestionsSelPoivre: 8,
+  nbStartQuestionsDessert: 8,
+  nbStartQuestionsAddition: 50,
   nbMaxQuestions: 50,
   listQuestions: []
 };
@@ -50,6 +55,8 @@ const actions = {
         for (const [key, value] of Object.entries(data)) {
           let question = {
             id: key,
+            category: value.category,
+            team: value.team,
             question: value.question,
             reponses: value.reponses,
             goodrep: value.goodrep

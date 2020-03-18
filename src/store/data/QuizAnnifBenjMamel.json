@@ -1,16 +1,20 @@
 {
   "question1": {
     "question": "Une Cuniculicultrice est une jeune femme :",
+    "category": "nuggets",
+    "team": "mayo",
+    "goodrep": "goodrep4",
     "reponses": {
       "rep1": "Qui enseigne l'art ancestral du cunnilingus",
       "rep2": "Qui apprécie l'art ancestral du cunnilingus",
       "rep3": "Qui collectionne les faiseurs de cunnilingus",
       "rep4": "Qui élève des lapins"
-    },
-    "goodrep": "goodrep4"
+    }
   },
   "question2": {
     "question": "En afganistan, le bouzkachi est",
+    "category": "nuggets",
+    "team": "ketchup",
     "goodrep": "goodrep3",
     "reponses": {
       "rep1": "La boite la plus branchee de Kaboul",
@@ -21,42 +25,578 @@
   },
   "question3": {
     "question": "Une seule de ces propositions est fausse, laquelle ?",
+    "category": "nuggets",
+    "team": "mayo",
+    "goodrep": "goodrep4",
     "reponses": {
       "rep1": "Rudolf DIESEL a inventé le DIESEL",
       "rep2": "Fredrich DOBERMAN a inventé le DOBERMAN",
       "rep3": "Samuel MORSE a inventé le MORSE",
       "rep4": "Sebastien levrette a inventé la levrette"
-    },
-    "goodrep": "goodrep4"
+    }
   },
   "question4": {
     "question": "Dans l’antiquite, sur quoi les Romains pretaient-ils serment ?",
+    "category": "nuggets",
+    "team": "ketchup",
+    "goodrep": "goodrep4",
     "reponses": {
       "rep1": "Une bible comme tout le monde",
       "rep2": "Les lauriers de cesar",
       "rep3": "Un album d’axterix",
       "rep4": "Leurs testicules"
-    },
-    "goodrep": "goodrep4"
+    }
   },
   "question5": {
     "question": "Dans quel film a joué Eddie Murphy?",
+    "category": "nuggets",
+    "team": "mayo",
+    "goodrep": "goodrep3",
     "reponses": {
       "rep1": "Le Roi de New-York",
       "rep2": "Un Roi a New-York",
       "rep3": "Un Prince a New-York",
       "rep4": "Le Prince de New-York"
-    },
-    "goodrep": "goodrep3"
+    }
   },
   "question6": {
     "question": "En turc, « Hepatite B » se dit? ",
+    "category": "nuggets",
+    "team": "ketchup",
+    "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Je n’en ai aucune idee",
       "rep2": "Doner Kebab",
       "rep3": "Yustlur",
       "rep4": "Yilzek B"
-    },
-    "goodrep": "goodrep1"
+    }
+  },
+  "question7": {
+    "question": "Je tire dessus quand j'ai soif",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep3",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question8": {
+    "question": "A plusieurs, nous sommes soeurs",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep2",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question9": {
+    "question": "Je suis de couleur rose pale",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep3",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question10": {
+    "question": "Je ne sors jamais de ma tanière",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question11": {
+    "question": "J'ai un trou à mon extrémité",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep3",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question12": {
+    "question": "J’ai la plus longue",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question13": {
+    "question": "Je suis le masculin d'une des réponses",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question14": {
+    "question": "Mon cousin s'appelle Jean de l'Ours",
+    "category": "selpoivre",
+    "team": "mayo",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Mamelours",
+      "rep2": "Mamelle d'ours",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question15": {
+    "question": "Je chante comme un gitan",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep3",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question16": {
+    "question": "Je n’ai de poils que dans une zone secrète gardée pour la police brésilienne",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question17": {
+    "question": "Je mesure 1m67",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep2",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question18": {
+    "question": "Qui a chanté « conne mi go »",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question19": {
+    "question": "En verlan ça donne « ji ken »",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep2",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question20": {
+    "question": "Je suis la perfection",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question21": {
+    "question": "Mon 4eme album est une bouze, comme les trois autres d’ailleurs",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep2",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question22": {
+    "question": "On me traite de voleur ",
+    "category": "selpoivre",
+    "team": "ketchup",
+    "goodrep": "goodrep1",
+    "reponses": {
+      "rep1": "Bendji Girac",
+      "rep2": "Kendji Girac",
+      "rep3": "Les deux",
+      "rep4": ""
+    }
+  },
+  "question23": {
+    "question": "",
+    "category": "menu",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question24": {
+    "question": "",
+    "category": "menu",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question25": {
+    "question": "",
+    "category": "menu",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question26": {
+    "question": "",
+    "category": "menu",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question27": {
+    "question": "",
+    "category": "menu",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question28": {
+    "question": "",
+    "category": "menu",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question29": {
+    "question": "",
+    "category": "menu",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question30": {
+    "question": "",
+    "category": "menu",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "ketchup",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question": {
+    "question": "",
+    "category": "burger2lamort",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
   }
 }

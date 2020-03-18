@@ -38,14 +38,41 @@ export default {
     },
     getGoodAnswers() {
       return this.showAnswer === true ? this.question.goodrep : "";
-    }
-    /*,
-    questionMayo(){
-      //return team == "mayo" ? true : false
     },
-    questionKetchup(){
-      //return team == "ketchup" ? true : false
-    }*/
+    getTeam() {
+      if (this.question != null) return this.question.team;
+      else return "";
+    },
+    isQuestionNuggets() {
+      if (this.question != null)
+        return this.question.category === "nuggets" ? true : false;
+      else return false;
+    },
+    isQuestionSelPoivre() {
+      if (this.question != null)
+        return this.question.category === "selpoivre" ? true : false;
+      else return false;
+    },
+    isQuestionMenu() {
+      if (this.question != null)
+        return this.question.category === "menu" ? true : false;
+      else return false;
+    },
+    isQuestionDessert() {
+      if (this.question != null)
+        return this.question.category === "dessert" ? true : false;
+      else return false;
+    },
+    isQuestionAddition() {
+      if (this.question != null)
+        return this.question.category === "addition" ? true : false;
+      else return false;
+    },
+    isQuestionBurgerDeLaMort() {
+      if (this.question != null)
+        return this.question.category === "burger2lamort" ? true : false;
+      else return false;
+    }
   },
   methods: {
     ...mapActions("questionsStore", {
