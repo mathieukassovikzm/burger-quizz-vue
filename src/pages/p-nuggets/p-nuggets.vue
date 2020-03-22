@@ -1,17 +1,28 @@
 <template>
-  <video class="video" id="video-container" autoplay>
-    <source src="./../../assets/videos/Nuggets.mp4" type="video/mp4" /></video
-></template>
+  <video class="video" id="video-container" autoplay v-on:ended="onEnd()">
+    <source src="./../../assets/videos/Nuggets.mp4" type="video/mp4" />
+  </video>
+</template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
+  computed: {
+    ...mapGetters("questionsStore", {
+      getCountQuestion: "getCountQuestionInStore"
+    })
+  },
   methods: {
     init() {
-      var video = document.getElementById('video-container');
+      var video = document.getElementById("video-container");
       video.play();
-      video.onended = function() {
-        alert('The audio has ended');
-      };
+    },
+    onEnd() {
+      this.$router.push({
+        name: "question",
+        params: { id: parseInt(this.getCountQuestion) }
+      });
     }
   },
   mounted() {
@@ -21,3 +32,5 @@ export default {
 </script>
 
 <style></style>
+
+

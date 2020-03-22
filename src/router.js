@@ -30,7 +30,7 @@ const routes = [
     component: ScreenQuestion,
     name: 'screen-question',
     children: [
-      { path: '/question/:id', component: Questions, name: 'screenQuestion' }
+      { path: '/question/:id', component: Questions, name: 'question' }
     ]
   },
   { path: '*', redirect: '/' }

@@ -264,103 +264,187 @@
     }
   },
   "question23": {
-    "question": "",
+    "question": "Où vit le grizzly, sous-espèce de l'ours brun ?",
     "category": "menu",
-    "team": "ketchup",
-    "goodrep": "",
+    "team": "mayo",
+    "goodrep": "Mon petit ours brun",
     "reponses": {
-      "rep1": "",
+      "rep1": "Au nord des Etats-Unis / Canada / Gouezec",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question24": {
-    "question": "",
+    "question": "Quel est la traduction de Mamelours en espagnol ?",
     "category": "menu",
-    "team": "ketchup",
-    "goodrep": "",
+    "team": "mayo",
+    "goodrep": "Mon petit ours brun",
     "reponses": {
-      "rep1": "",
+      "rep1": "Mameloso",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question25": {
-    "question": "",
+    "question": "Combien l'ourse possède-t-elle de paires de mamelles ?",
     "category": "menu",
-    "team": "ketchup",
-    "goodrep": "",
+    "team": "mayo",
+    "goodrep": "Mon petit ours brun",
     "reponses": {
-      "rep1": "",
+      "rep1": "2",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question26": {
-    "question": "",
+    "question": "Quel est l’acte sexuel favorite de l’ours ?",
     "category": "menu",
-    "team": "ketchup",
-    "goodrep": "",
+    "team": "mayo",
+    "goodrep": "Mon petit ours brun",
     "reponses": {
-      "rep1": "",
+      "rep1": "La pipe au miel",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question27": {
-    "question": "",
+    "question": "Qui a dit : « Je n'aime pas la façon dont mes dents se font saillie. Je vais les faire faire, mais je n'ai tout simplement pas eu le temps. En dehors de cela... je suis parfait » ?",
     "category": "menu",
-    "team": "mayo",
-    "goodrep": "",
+    "team": "ketchup",
+    "goodrep": "Girac, la perfection au masculin",
     "reponses": {
-      "rep1": "",
+      "rep1": "Freddy Mercury",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question28": {
-    "question": "",
+    "question": "Qui a chanté « l’homme parfait » en 2019 ?",
     "category": "menu",
-    "team": "mayo",
-    "goodrep": "",
+    "team": "ketchup",
+    "goodrep": "Girac, la perfection au masculin",
     "reponses": {
-      "rep1": "",
+      "rep1": "Lynda Sherazade",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question29": {
-    "question": "",
+    "question": "En quelle année est sortie le film « l’homme parfait » ?",
     "category": "menu",
-    "team": "mayo",
-    "goodrep": "",
+    "team": "ketchup",
+    "goodrep": "Girac, la perfection au masculin",
     "reponses": {
-      "rep1": "",
+      "rep1": "2005",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
   "question30": {
-    "question": "",
+    "question": "Quel est la traduction de parfait en portugais ?",
     "category": "menu",
-    "team": "mayo",
-    "goodrep": "",
+    "team": "ketchup",
+    "goodrep": "Girac, la perfection au masculin",
     "reponses": {
-      "rep1": "",
+      "rep1": "perfeito",
       "rep2": "",
       "rep3": "",
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question31": {
+    "question": "Je sers à amarrer les bateaux ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Bitte",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question32": {
+    "question": "Vous pouvez vous tamponner l’oreille avec ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Babouche",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question33": {
+    "question": "Je suis un singe aux fesses toutes rouges ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Babouin",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question34": {
+    "question": "Vous en avez enquillé pas mal ce soir ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Binouse / Bière",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question35": {
+    "question": "Geste consistant à donner une petite cloquette sur la joue avec son organe génital ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Bifle",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question36": {
+    "question": "Cela arrive même au maffcuss numéros 1 de dormir dessus de temps à autre ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Béquille",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question37": {
+    "question": "Je suis votre animateur préféré ?",
+    "category": "addition",
+    "team": "",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "Boulbi",
+      "rep2": "",
+      "rep3": "",
+      "rep4": ""
+    }
+  },
+  "question38": {
+    "question": "Quelle est la 11-ème lettre de l’alphabet",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -371,8 +455,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question39": {
+    "question": "Combien y a-t-il de bosses dans un troupeau de 12 chameaux ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -383,8 +467,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question40": {
+    "question": "L’homme parfait est-il parfait ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -395,8 +479,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question41": {
+    "question": "Tu penses à quoi ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -407,8 +491,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question42": {
+    "question": "Combien de bosses a Rocco Siffredi ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -419,8 +503,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question43": {
+    "question": "Boire ou conduire, il faut choisir, si je n’ai pas le permis que faut-il que je fasse ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -431,8 +515,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question44": {
+    "question": "D’où vient Michmich ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -443,8 +527,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question45": {
+    "question": "On n’est pas bien là ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -455,8 +539,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question46": {
+    "question": "Sur quelle chaine est diffusé le film porno de canal plus ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -467,8 +551,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question47": {
+    "question": "De quel couleur est votre slip ?",
     "category": "burger2lamort",
     "team": "ketchup",
     "goodrep": "",
@@ -479,8 +563,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question48": {
+    "question": "Combien y’a-t-il de nain dans Blanche neige et les 7 nains ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -491,8 +575,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question49": {
+    "question": "Vrai ou faux, Mikouille n’a qu’une couille mais elle est très grosse ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -503,8 +587,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question50": {
+    "question": "De quelle couleur est l’ours brun d’Henry IV ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -515,8 +599,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question51": {
+    "question": "Dans quel film célèbre peut-on entendre cette réplique : « Vas te faire refaire alien !!»",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -527,8 +611,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question52": {
+    "question": "J’ai hâte de rentrer chez moi pour manger un ours, pas vous ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -539,8 +623,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question53": {
+    "question": "Que fait la vache qui rit ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -551,8 +635,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question54": {
+    "question": "Avez-vous participé à la guerre du Vietnam ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -563,8 +647,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question55": {
+    "question": "Quel âge as-tu ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -575,8 +659,8 @@
       "rep4": ""
     }
   },
-  "question": {
-    "question": "",
+  "question56": {
+    "question": "Reprendrais-tu une petite mousse ?",
     "category": "burger2lamort",
     "team": "mayo",
     "goodrep": "",
@@ -587,7 +671,7 @@
       "rep4": ""
     }
   },
-  "question": {
+  "question57": {
     "question": "",
     "category": "burger2lamort",
     "team": "mayo",

@@ -13,7 +13,13 @@ export default {
   },
   computed: {
     ...mapGetters("questionsStore", {
-      getQuestionById: "getQuestionInStore"
+      getQuestionById: "getQuestionInStore",
+      getCountQuestion: "getCountQuestionInStore",
+      getNbStartQMenu: "getNbStartQMenuInStore",
+      getNbStartQSelPoivre: "getNbStartQSelPoivreInStore",
+      getNbStartQDessert: "getNbStartQDessertInStore",
+      getNbStartQAddition: "getNbStartQAdditionInStore",
+      getNbStartQBurgerDeLaMort: "getNbStartQBurgerDeLaMortInStore"
     }),
 
     getQuestion() {
@@ -38,6 +44,13 @@ export default {
     },
     getGoodAnswers() {
       return this.showAnswer === true ? this.question.goodrep : "";
+    },
+    showGoodAnswers() {
+      return this.showAnswer;
+    },
+    getMenu() {
+      if (this.question != null) return this.question.goodrep;
+      else return "";
     },
     getTeam() {
       if (this.question != null) return this.question.team;
@@ -78,19 +91,46 @@ export default {
     ...mapActions("questionsStore", {
       inCrementCountQuestion: "incrementCountQuestionInStore"
     }),
+
     showReponse() {
       this.showAnswer = true;
     },
+
     fetchQuestion(nb) {
       this.question = this.getQuestionById(nb);
     },
+
     nextQuestion() {
       this.inCrementCountQuestion();
-      this.$router.push({
-        name: "screenQuestion",
-        params: { id: parseInt(this.questionId) + 1 }
-      });
+
+      if (this.getCountQuestion == this.getNbStartQMenu) {
+        this.$router.push({
+          name: "pageMenus"
+        });
+      } else if (this.getCountQuestion == this.getNbStartQSelPoivre) {
+        this.$router.push({
+          name: "pageSelPoivre"
+        });
+      } else if (this.getCountQuestion == this.getNbStartQDessert) {
+        this.$router.push({
+          name: "pageDessert"
+        });
+      } else if (this.getCountQuestion == this.getNbStartQAddition) {
+        this.$router.push({
+          name: "screenQuestion"
+        });
+      } else if (this.getCountQuestion == this.getNbStartQBurgerDeLaMort) {
+        this.$router.push({
+          name: "pageBurger2laMort"
+        });
+      } else {
+        this.$router.push({
+          name: "question",
+          params: { id: parseInt(this.getCountQuestion) }
+        });
+      }
     },
+
     loadRoute(route) {
       this.questionId = route.params.id;
       this.fetchQuestion(this.questionId);

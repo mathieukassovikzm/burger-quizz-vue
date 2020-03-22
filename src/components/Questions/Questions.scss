@@ -3,22 +3,33 @@
   color: $primary;
   width: 100%;
   min-height: 800px;
-  background-repeat: no-repeat;
-  text-align: center;
-  background-position: center;
 
-  .txt {
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-
+  .buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    button {
+      font-family: fontBurgerQuizzTitle;
+      font-size: 4rem;
+    }
+  }
+  .container-rep {
+    text-align: center;
+    min-height: 500px;
+    padding: 20px 0;
+    h1 {
+      margin-bottom: 20px;
+      font-family: fontBurgerQuizzTitle;
+      font-size: 4rem;
+      font-weight: inherit;
+    }
     h2 {
       margin-bottom: 20px;
       font-size: $base-size-xxl;
     }
     .reponses {
+      width: 90%;
+      margin: auto;
       .rep {
         display: flex;
         align-items: center;
@@ -39,8 +50,17 @@
 
   &.mayo {
     background-color: $mayo;
-    background-image: url('./../../assets/questionsMayo.png');
-    .txt {
+    .buttons {
+      button {
+        color: $lightMayo;
+        &:hover {
+          color: #000;
+        }
+      }
+    }
+    .container-rep {
+      background-color: $lightMayo;
+
       .reponses {
         .rep {
           &.rep1.goodrep1,
@@ -52,19 +72,21 @@
         }
       }
     }
+  }
+
+  &.ketchup {
+    background-color: $ketchup;
     .buttons {
       button {
-        color: $lightMayo;
+        color: $lightKetchup;
         &:hover {
           color: #000;
         }
       }
     }
-  }
-  &.ketchup {
-    background-color: $ketchup;
-    background-image: url('./../../assets/questionsKetchup.png');
-    .txt {
+    .container-rep {
+      background-color: $lightKetchup;
+
       .reponses {
         .rep {
           &.rep1.goodrep1,
@@ -75,21 +97,6 @@
           }
         }
       }
-    }
-    .buttons {
-      button {
-        color: $lightKetchup;
-        &:hover {
-          color: #000;
-        }
-      }
-    }
-  }
-
-  .buttons {
-    button {
-      font-family: fontBurgerQuizzTitle;
-      font-size: 4rem;
     }
   }
 }
