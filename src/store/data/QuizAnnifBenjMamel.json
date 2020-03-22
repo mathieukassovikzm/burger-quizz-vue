@@ -360,32 +360,32 @@
     }
   },
   "question31": {
-    "question": "",
+    "question": "./../../assets/ganacheMayo.jpg",
     "category": "dessert",
     "team": "mayo",
     "goodrep": "",
     "reponses": {
-      "rep1": "perfeito",
-      "rep2": "",
-      "rep3": ""
+      "rep1": "Personne 1",
+      "rep2": "Personne 2",
+      "rep3": "Personne 3"
     }
   },
   "question32": {
-    "question": "",
+    "question": "./../../assets/ganacheKetchup.jpg",
     "category": "dessert",
-    "team": "mayo",
+    "team": "ketchup",
     "goodrep": "",
     "reponses": {
-      "rep1": "perfeito",
-      "rep2": "",
-      "rep3": ""
+      "rep1": "Personne 1",
+      "rep2": "Personne 2",
+      "rep3": "Personne 3"
     }
   },
   "question33": {
     "question": "Je sers à amarrer les bateaux ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Bitte",
       "rep2": "",
@@ -397,7 +397,7 @@
     "question": "Vous pouvez vous tamponner l’oreille avec ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Babouche",
       "rep2": "",
@@ -409,7 +409,7 @@
     "question": "Je suis un singe aux fesses toutes rouges ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Babouin",
       "rep2": "",
@@ -421,7 +421,7 @@
     "question": "Vous en avez enquillé pas mal ce soir ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Binouse / Bière",
       "rep2": "",
@@ -433,7 +433,7 @@
     "question": "Geste consistant à donner une petite cloquette sur la joue avec son organe génital ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Bifle",
       "rep2": "",
@@ -445,7 +445,7 @@
     "question": "Cela arrive même au maffcuss numéros 1 de dormir dessus de temps à autre ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Béquille",
       "rep2": "",
@@ -457,7 +457,7 @@
     "question": "Je suis votre animateur préféré ?",
     "category": "addition",
     "team": "",
-    "goodrep": "",
+    "goodrep": "Toutes les reponses commencent par « Lettre B»",
     "reponses": {
       "rep1": "Boulbi",
       "rep2": "",

@@ -9,19 +9,29 @@
     flex-wrap: nowrap;
     justify-content: center;
     button {
+      color: $txt-primary;
       font-family: fontBurgerQuizzTitle;
       font-size: 4rem;
+      &:hover {
+        color: $segundary;
+      }
     }
   }
   .container-rep {
     text-align: center;
     min-height: 500px;
     padding: 20px 0;
+    background-color: $txt-primary;
+
     h1 {
       margin-bottom: 20px;
       font-family: fontBurgerQuizzTitle;
       font-size: 4rem;
       font-weight: inherit;
+      &.theme-addition {
+        font-size: 2rem;
+        color: $segundary;
+      }
     }
     h2 {
       margin-bottom: 20px;
@@ -43,6 +53,12 @@
           position: relative;
           top: -8px;
           font-size: $base-size-xl;
+        }
+      }
+      &.dessert {
+        .rep {
+          display: block;
+          padding: 10px 0;
         }
       }
     }

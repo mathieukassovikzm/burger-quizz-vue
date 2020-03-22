@@ -5,9 +5,9 @@ const state = {
   nbStartQuestionsSelPoivre: 7,
   nbStartQuestionsMenu: 23,
   nbStartQuestionsDessert: 31,
-  nbStartQuestionsAddition: 31,
-  nbStartQuestionsBurgerDeLaMort: 38,
-  nbStartQuestionsBurgerDeLaMort2: 48,
+  nbStartQuestionsAddition: 33,
+  nbStartQuestionsBurgerDeLaMort: 40,
+  nbStartQuestionsBurgerDeLaMort2: 50,
   nbMaxQuestions: 50,
   listQuestions: []
 };

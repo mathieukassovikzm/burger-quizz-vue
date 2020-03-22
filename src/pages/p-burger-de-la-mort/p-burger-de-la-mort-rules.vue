@@ -1,11 +1,13 @@
 <template>
   <div class="rules">
-    <h1>Nuggets</h1>
+    <h1>Burger de la mort</h1>
     <h2>Les règles</h2>
-    <p class="ketchup">1 questions</p>
-    <p class="mayo">4 propositions</p>
-    <p class="ketchup">1 seule bonne réponse</p>
-    <p class="mayo">1 miam par bonne réponse</p>
+    <p class="ketchup">10 questions à la suite</p>
+    <p class="mayo">A la fin des 10 questions</p>
+    <p class="ketchup">Donnez les 10 réponses dans l’ordre</p>
+    <p class="mayo">Questions très simples</p>
+    <p class="ketchup">Il ne faut pas souffler</p>
+
     <button type="button" name="button" @click="goToVideo">C'est compris?</button>
   </div>
 </template>
@@ -15,7 +17,7 @@ export default {
   methods: {
     goToVideo() {
       this.$router.push({
-        name: "pageNuggetsVideo"
+        name: "pageBurger2laMortVideo"
       });
     }
   }

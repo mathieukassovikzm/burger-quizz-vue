@@ -80,11 +80,6 @@ export default {
       if (this.question != null)
         return this.question.category === "addition" ? true : false;
       else return false;
-    },
-    isQuestionBurgerDeLaMort() {
-      if (this.question != null)
-        return this.question.category === "burger2lamort" ? true : false;
-      else return false;
     }
   },
   methods: {

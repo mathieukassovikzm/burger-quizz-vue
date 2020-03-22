@@ -57,4 +57,28 @@
       </div>
     </div>
   </div>
+
+  <div class="container-rep" v-show="isQuestionDessert">
+    <h2>A qui appartient ces 3 visages?</h2>
+    <div class="ganache">
+      <img src="./../../assets/ganacheKetchup.jpg" />
+    </div>
+    <div class="reponses dessert">
+      <div class="rep rep1" v-show="showGoodAnswers">
+        <p>{{getRep1}}</p>
+        <p>{{getRep2}}</p>
+        <p>{{getRep3}}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-rep" v-show="isQuestionAddition">
+    <h1 class="theme-addition">{{getMenu}}</h1>
+    <h2>{{getQuestion}}</h2>
+    <div class="reponses">
+      <div class="rep rep1" v-show="showGoodAnswers">
+        <p>{{getRep1}}</p>
+      </div>
+    </div>
+  </div>
 </div>
