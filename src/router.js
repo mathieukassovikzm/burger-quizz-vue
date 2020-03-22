@@ -2,28 +2,74 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import PageHome from './pages/p-home/p-home';
 import PageIntro from './pages/p-intro/p-intro';
-import PageSelPoivre from './pages/p-sel-poivre/p-sel-poivre';
-import PageMenus from './pages/p-menu/p-menu';
-import PageNuggets from './pages/p-nuggets/p-nuggets';
-import PageBurgerDeLaMort from './pages/p-burger-de-la-mort/p-burger-de-la-mort';
+import PageNuggetsRules from './pages/p-nuggets/p-nuggets-rules';
+import PageNuggetsVideo from './pages/p-nuggets/p-nuggets-video';
+import PageSelPoivreRules from './pages/p-sel-poivre/p-sel-poivre-rules';
+import PageSelPoivreVideo from './pages/p-sel-poivre/p-sel-poivre-video';
+import PageMenusRules from './pages/p-menu/p-menu-rules';
+import PageMenusVideo from './pages/p-menu/p-menu-video';
+import PageDessertRules from './pages/p-dessert/p-dessert-rules';
+import PageAdditionRules from './pages/p-addition/p-addition-rules';
+import PageAdditionVideo from './pages/p-addition/p-addition-video';
+import PageBurgerDeLaMortRules from './pages/p-burger-de-la-mort/p-burger-de-la-mort-rules';
+import PageBurgerDeLaMortVideo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video';
 import ScreenQuestion from './components/ScreenQuestion';
 import Questions from './components/Questions/Questions';
 
 Vue.use(VueRouter);
 
 /*
- * Definition of the differents routes
+ * Definition of the differentes routes
  */
 const routes = [
   { path: '/', component: PageHome, name: 'p-home' },
   { path: '/intro', component: PageIntro, name: 'pageIntro' },
-  { path: '/menu', component: PageMenus, name: 'pageMenus' },
-  { path: '/nuggets', component: PageNuggets, name: 'pageNuggets' },
-  { path: '/sel-poivre', component: PageSelPoivre, name: 'pageSelPoivre' },
   {
-    path: '/burger-de-la-mort',
-    component: PageBurgerDeLaMort,
-    name: 'pageBurger2laMort'
+    path: '/nuggets-rules',
+    component: PageNuggetsRules,
+    name: 'pageNuggetsRules'
+  },
+  {
+    path: '/nuggets-video',
+    component: PageNuggetsVideo,
+    name: 'pageNuggetsVideo'
+  },
+  {
+    path: '/sel-poivre-rules',
+    component: PageSelPoivreRules,
+    name: 'pageSelPoivreRules'
+  },
+  {
+    path: '/sel-poivre-video',
+    component: PageSelPoivreVideo,
+    name: 'pageSelPoivreVideo'
+  },
+  { path: '/menu-rules', component: PageMenusRules, name: 'pageMenusRules' },
+  { path: '/menu-video', component: PageMenusVideo, name: 'pageMenusVideo' },
+  {
+    path: '/dessert-rules',
+    component: PageDessertRules,
+    name: 'pageDessertRules'
+  },
+  {
+    path: '/addition-rules',
+    component: PageAdditionRules,
+    name: 'pageAdditionRules'
+  },
+  {
+    path: '/addition-video',
+    component: PageAdditionVideo,
+    name: 'pageAdditionVideo'
+  },
+  {
+    path: '/burger-de-la-mort-rules',
+    component: PageBurgerDeLaMortRules,
+    name: 'pageBurger2laMortRules'
+  },
+  {
+    path: '/burger-de-la-mort-video',
+    component: PageBurgerDeLaMortVideo,
+    name: 'pageBurger2laMortVideo'
   },
   {
     path: '/question',

@@ -1,7 +1,6 @@
-<template
-  >
+<template>
   <video class="video" id="video-container" autoplay v-on:ended="onEnd()">
-    <source src="./../../assets/videos/Menus.mp4" type="video/mp4" />
+    <source src="./../../assets/videos/Addition.mp4" type="video/mp4" />
   </video>
 </template>
 
@@ -21,7 +20,8 @@ export default {
     },
     onEnd() {
       this.$router.push({
-        name: "pageNuggetsRules"
+        name: "question",
+        params: { id: parseInt(this.getCountQuestion) }
       });
     }
   },

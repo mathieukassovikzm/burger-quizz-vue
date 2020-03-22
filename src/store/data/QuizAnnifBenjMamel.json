@@ -360,6 +360,28 @@
     }
   },
   "question31": {
+    "question": "",
+    "category": "dessert",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "perfeito",
+      "rep2": "",
+      "rep3": ""
+    }
+  },
+  "question32": {
+    "question": "",
+    "category": "dessert",
+    "team": "mayo",
+    "goodrep": "",
+    "reponses": {
+      "rep1": "perfeito",
+      "rep2": "",
+      "rep3": ""
+    }
+  },
+  "question33": {
     "question": "Je sers à amarrer les bateaux ?",
     "category": "addition",
     "team": "",
@@ -371,7 +393,7 @@
       "rep4": ""
     }
   },
-  "question32": {
+  "question34": {
     "question": "Vous pouvez vous tamponner l’oreille avec ?",
     "category": "addition",
     "team": "",
@@ -383,7 +405,7 @@
       "rep4": ""
     }
   },
-  "question33": {
+  "question35": {
     "question": "Je suis un singe aux fesses toutes rouges ?",
     "category": "addition",
     "team": "",
@@ -395,7 +417,7 @@
       "rep4": ""
     }
   },
-  "question34": {
+  "question36": {
     "question": "Vous en avez enquillé pas mal ce soir ?",
     "category": "addition",
     "team": "",
@@ -407,7 +429,7 @@
       "rep4": ""
     }
   },
-  "question35": {
+  "question37": {
     "question": "Geste consistant à donner une petite cloquette sur la joue avec son organe génital ?",
     "category": "addition",
     "team": "",
@@ -419,7 +441,7 @@
       "rep4": ""
     }
   },
-  "question36": {
+  "question38": {
     "question": "Cela arrive même au maffcuss numéros 1 de dormir dessus de temps à autre ?",
     "category": "addition",
     "team": "",
@@ -431,7 +453,7 @@
       "rep4": ""
     }
   },
-  "question37": {
+  "question39": {
     "question": "Je suis votre animateur préféré ?",
     "category": "addition",
     "team": "",
@@ -443,7 +465,7 @@
       "rep4": ""
     }
   },
-  "question38": {
+  "question40": {
     "question": "Quelle est la 11-ème lettre de l’alphabet",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -455,7 +477,7 @@
       "rep4": ""
     }
   },
-  "question39": {
+  "question41": {
     "question": "Combien y a-t-il de bosses dans un troupeau de 12 chameaux ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -467,7 +489,7 @@
       "rep4": ""
     }
   },
-  "question40": {
+  "question42": {
     "question": "L’homme parfait est-il parfait ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -479,7 +501,7 @@
       "rep4": ""
     }
   },
-  "question41": {
+  "question43": {
     "question": "Tu penses à quoi ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -491,7 +513,7 @@
       "rep4": ""
     }
   },
-  "question42": {
+  "question44": {
     "question": "Combien de bosses a Rocco Siffredi ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -503,7 +525,7 @@
       "rep4": ""
     }
   },
-  "question43": {
+  "question45": {
     "question": "Boire ou conduire, il faut choisir, si je n’ai pas le permis que faut-il que je fasse ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -515,7 +537,7 @@
       "rep4": ""
     }
   },
-  "question44": {
+  "question46": {
     "question": "D’où vient Michmich ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -527,7 +549,7 @@
       "rep4": ""
     }
   },
-  "question45": {
+  "question47": {
     "question": "On n’est pas bien là ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -539,7 +561,7 @@
       "rep4": ""
     }
   },
-  "question46": {
+  "question48": {
     "question": "Sur quelle chaine est diffusé le film porno de canal plus ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -551,7 +573,7 @@
       "rep4": ""
     }
   },
-  "question47": {
+  "question49": {
     "question": "De quel couleur est votre slip ?",
     "category": "burger2lamort",
     "team": "ketchup",
@@ -563,7 +585,7 @@
       "rep4": ""
     }
   },
-  "question48": {
+  "question50": {
     "question": "Combien y’a-t-il de nain dans Blanche neige et les 7 nains ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -575,7 +597,7 @@
       "rep4": ""
     }
   },
-  "question49": {
+  "question51": {
     "question": "Vrai ou faux, Mikouille n’a qu’une couille mais elle est très grosse ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -587,7 +609,7 @@
       "rep4": ""
     }
   },
-  "question50": {
+  "question52": {
     "question": "De quelle couleur est l’ours brun d’Henry IV ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -599,7 +621,7 @@
       "rep4": ""
     }
   },
-  "question51": {
+  "question53": {
     "question": "Dans quel film célèbre peut-on entendre cette réplique : « Vas te faire refaire alien !!»",
     "category": "burger2lamort",
     "team": "mayo",
@@ -611,7 +633,7 @@
       "rep4": ""
     }
   },
-  "question52": {
+  "question54": {
     "question": "J’ai hâte de rentrer chez moi pour manger un ours, pas vous ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -623,7 +645,7 @@
       "rep4": ""
     }
   },
-  "question53": {
+  "question55": {
     "question": "Que fait la vache qui rit ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -635,7 +657,7 @@
       "rep4": ""
     }
   },
-  "question54": {
+  "question56": {
     "question": "Avez-vous participé à la guerre du Vietnam ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -647,7 +669,7 @@
       "rep4": ""
     }
   },
-  "question55": {
+  "question57": {
     "question": "Quel âge as-tu ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -659,7 +681,7 @@
       "rep4": ""
     }
   },
-  "question56": {
+  "question58": {
     "question": "Reprendrais-tu une petite mousse ?",
     "category": "burger2lamort",
     "team": "mayo",
@@ -671,7 +693,7 @@
       "rep4": ""
     }
   },
-  "question57": {
+  "question59": {
     "question": "",
     "category": "burger2lamort",
     "team": "mayo",

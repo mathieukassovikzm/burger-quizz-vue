@@ -103,25 +103,25 @@ export default {
     nextQuestion() {
       this.inCrementCountQuestion();
 
-      if (this.getCountQuestion == this.getNbStartQMenu) {
+      if (this.getCountQuestion == this.getNbStartQSelPoivre) {
         this.$router.push({
-          name: "pageMenus"
+          name: "pageSelPoivreRules"
         });
-      } else if (this.getCountQuestion == this.getNbStartQSelPoivre) {
+      } else if (this.getCountQuestion == this.getNbStartQMenu) {
         this.$router.push({
-          name: "pageSelPoivre"
+          name: "pageMenusRules"
         });
       } else if (this.getCountQuestion == this.getNbStartQDessert) {
         this.$router.push({
-          name: "pageDessert"
+          name: "pageDessertRules"
         });
       } else if (this.getCountQuestion == this.getNbStartQAddition) {
         this.$router.push({
-          name: "screenQuestion"
+          name: "pageAdditionRules"
         });
       } else if (this.getCountQuestion == this.getNbStartQBurgerDeLaMort) {
         this.$router.push({
-          name: "pageBurger2laMort"
+          name: "pageBurger2laMortRules"
         });
       } else {
         this.$router.push({
