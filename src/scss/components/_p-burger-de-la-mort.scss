@@ -1,0 +1,99 @@
+.b2lm {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 20px 0;
+
+  .panel-l {
+    width: 50%;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .panel-r {
+    width: 50%;
+    .buttons {
+      display: flex;
+      justify-content: center;
+      button {
+        margin-top: 20px;
+        font-family: fontBurgerQuizzTitle;
+        font-size: 4rem;
+        color: $segundary;
+      }
+    }
+
+    .questions {
+      .question {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        .g-q-r {
+          width: 90%;
+          padding: 5px 0;
+        }
+        h2 {
+          font-family: fontBurgerQuizzTitle;
+          font-weight: inherit;
+          font-size: 3em;
+          margin-right: 10px;
+        }
+        p {
+          font-size: 1.8em;
+        }
+      }
+    }
+  }
+  &.mayo {
+    .panel-r {
+      width: 50%;
+      .buttons {
+        button {
+          color: $mayo;
+          &:hover {
+            color: $lightMayo;
+          }
+        }
+      }
+      .questions {
+        .question {
+          color: $mayo;
+          .g-q-r {
+            border-top: solid 1px $mayo;
+            border-bottom: solid 1px $mayo;
+          }
+          .q {
+            color: $lightMayo;
+          }
+        }
+      }
+    }
+  }
+
+  &.ketchup {
+    .panel-r {
+      width: 50%;
+      .buttons {
+        button {
+          color: $ketchup;
+          &:hover {
+            color: $lightKetchup;
+          }
+        }
+      }
+      .questions {
+        .question {
+          color: $ketchup;
+          .g-q-r {
+            border-top: solid 1px $ketchup;
+            border-bottom: solid 1px $ketchup;
+          }
+          .q {
+            color: $lightKetchup;
+          }
+        }
+      }
+    }
+  }
+}

@@ -12,7 +12,10 @@ import PageDessertRules from './pages/p-dessert/p-dessert-rules';
 import PageAdditionRules from './pages/p-addition/p-addition-rules';
 import PageAdditionVideo from './pages/p-addition/p-addition-video';
 import PageBurgerDeLaMortRules from './pages/p-burger-de-la-mort/p-burger-de-la-mort-rules';
-import PageBurgerDeLaMortVideo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video';
+import PageBurgerDeLaMortVideo1 from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video-1';
+import PageBurgerDeLaMort1 from './pages/p-burger-de-la-mort/p-burger-de-la-mort-1';
+import PageBurgerDeLaMortVideo2 from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video-2';
+import PageBurgerDeLaMort2 from './pages/p-burger-de-la-mort/p-burger-de-la-mort-2';
 import ScreenQuestion from './components/ScreenQuestion';
 import Questions from './components/Questions/Questions';
 
@@ -67,9 +70,24 @@ const routes = [
     name: 'pageBurger2laMortRules'
   },
   {
-    path: '/burger-de-la-mort-video',
-    component: PageBurgerDeLaMortVideo,
-    name: 'pageBurger2laMortVideo'
+    path: '/burger-de-la-mort-video-1',
+    component: PageBurgerDeLaMortVideo1,
+    name: 'pageBurger2laMortVideo1'
+  },
+  {
+    path: '/burger-de-la-mort-1',
+    component: PageBurgerDeLaMort1,
+    name: 'pageBurger2laMort1'
+  },
+  {
+    path: '/burger-de-la-mort-video-2',
+    component: PageBurgerDeLaMortVideo2,
+    name: 'pageBurger2laMortVideo2'
+  },
+  {
+    path: '/burger-de-la-mort-2',
+    component: PageBurgerDeLaMort2,
+    name: 'pageBurger2laMort2'
   },
   {
     path: '/question',

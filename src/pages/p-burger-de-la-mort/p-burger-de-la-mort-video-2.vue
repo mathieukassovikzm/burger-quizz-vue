@@ -1,6 +1,6 @@
 <template>
   <video class="video" id="video-container" autoplay v-on:ended="onEnd()">
-    <source src="./../../assets/videos/BurgerDeLaMort.mp4" type="video/mp4" />
+    <source src="./../../assets/videos/BurgerDeLaMort2.mp4" type="video/mp4" />
   </video>
 </template>
 
@@ -20,8 +20,7 @@ export default {
     },
     onEnd() {
       this.$router.push({
-        name: "question",
-        params: { id: parseInt(this.getCountQuestion) }
+        name: "pageBurger2laMort2"
       });
     }
   },

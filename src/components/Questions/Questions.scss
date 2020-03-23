@@ -18,15 +18,15 @@
     }
   }
   .container-rep {
-    text-align: center;
     min-height: 500px;
     padding: 20px 0;
     background-color: $txt-primary;
 
     h1 {
+      text-align: center;
       margin-bottom: 20px;
       font-family: fontBurgerQuizzTitle;
-      font-size: 4rem;
+      font-size: 3.5rem;
       font-weight: inherit;
       &.theme-addition {
         font-size: 2rem;
@@ -34,6 +34,7 @@
       }
     }
     h2 {
+      text-align: center;
       margin-bottom: 20px;
       font-size: $base-size-xxl;
     }
@@ -45,14 +46,14 @@
         align-items: center;
         h3 {
           font-family: fontBurgerQuizzTitle;
-          font-size: 5rem;
+          font-size: 3.5rem;
           font-weight: normal;
           margin-right: 20px;
         }
         p {
           position: relative;
           top: -8px;
-          font-size: $base-size-xl;
+          font-size: 2.2rem;
         }
       }
       &.dessert {

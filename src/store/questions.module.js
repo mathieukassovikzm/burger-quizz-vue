@@ -22,6 +22,15 @@ const getters = {
     });
     return q;
   },
+  getAllQBdlmInStore: state => team => {
+    var list = [];
+    state.listQuestions.forEach(el => {
+      if (el.category === 'burger2lamort' && el.team === team) {
+        list.push(el);
+      }
+    });
+    return list;
+  },
   getCountQuestionInStore: state => {
     return state.countQuestion;
   },
