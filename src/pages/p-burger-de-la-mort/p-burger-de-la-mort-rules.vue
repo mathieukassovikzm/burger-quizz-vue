@@ -17,7 +17,7 @@ export default {
   methods: {
     goToVideo() {
       this.$router.push({
-        name: "pageBurger2laMortVideo1"
+        name: "pageBurger2laMortVideoMayo"
       });
     }
   }

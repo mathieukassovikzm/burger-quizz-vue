@@ -20,7 +20,7 @@ export default {
     },
     onEnd() {
       this.$router.push({
-        name: "pageBurger2laMort2"
+        name: "pageBurger2laMortKetchup"
       });
     }
   },

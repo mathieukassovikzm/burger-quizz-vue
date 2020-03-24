@@ -1,8 +1,6 @@
 <template>
   <div class="container">
-    <button class="btn-start" @click="start">
-      C'est parti!
-    </button>
+    <button class="btn-start" @click="start">C'est parti!</button>
   </div>
 </template>
 
@@ -11,7 +9,7 @@ export default {
   methods: {
     start() {
       this.$router.push({
-        name: 'pageIntro'
+        name: "pageIntro"
       });
     }
   }
@@ -31,8 +29,7 @@ export default {
     color: $segundary;
     font-size: 5rem;
     &:hover {
-      color: $ketchup;
-      background-color: $mayo;
+      color: $txt-segundary;
     }
   }
 }
