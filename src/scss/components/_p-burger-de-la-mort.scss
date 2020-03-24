@@ -1,53 +1,71 @@
 .b2lm {
-  display: flex;
   width: 90%;
   margin: auto;
   padding: 20px 0;
-
-  .panel-l {
-    width: 50%;
-    img {
-      width: 100%;
-      height: auto;
+  .top {
+    .title {
+      display: flex;
+      justify-content: center;
+      h1,
+      h2 {
+        font-family: fontBurgerQuizzTitle;
+        font-weight: inherit;
+        font-size: 5em;
+        margin-right: 10px;
+      }
+      h1 {
+        color: $ketchup;
+      }
+      h2 {
+        color: #6b9742;
+      }
     }
-  }
-  .panel-r {
-    width: 50%;
     .buttons {
       display: flex;
       justify-content: center;
       button {
         margin-top: 20px;
         font-family: fontBurgerQuizzTitle;
-        font-size: 4rem;
+        font-size: 3rem;
         color: $segundary;
       }
     }
+  }
 
-    .questions {
-      .question {
-        display: flex;
-        flex-wrap: nowrap;
-        align-items: center;
-        .g-q-r {
-          width: 90%;
-          padding: 5px 0;
-        }
-        h2 {
-          font-family: fontBurgerQuizzTitle;
-          font-weight: inherit;
-          font-size: 3em;
-          margin-right: 10px;
-        }
-        p {
-          font-size: 1.8em;
+  .container-flex {
+    display: flex;
+    .panel-l,
+    .panel-r {
+      width: 50%;
+
+      .questions {
+        .question {
+          .divif {
+            width: 100%;
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+          }
+          .g-q-r {
+            width: 90%;
+            padding: 5px 0;
+          }
+          h2 {
+            font-family: fontBurgerQuizzTitle;
+            font-weight: inherit;
+            font-size: 3em;
+            margin-right: 10px;
+          }
+          p {
+            font-size: 1.8em;
+          }
         }
       }
     }
   }
+
   &.mayo {
-    .panel-r {
-      width: 50%;
+    .top {
       .buttons {
         button {
           color: $mayo;
@@ -56,6 +74,9 @@
           }
         }
       }
+    }
+    .panel-l,
+    .panel-r {
       .questions {
         .question {
           color: $mayo;
@@ -72,8 +93,7 @@
   }
 
   &.ketchup {
-    .panel-r {
-      width: 50%;
+    .top {
       .buttons {
         button {
           color: $ketchup;
@@ -82,6 +102,9 @@
           }
         }
       }
+    }
+    .panel-l,
+    .panel-r {
       .questions {
         .question {
           color: $ketchup;

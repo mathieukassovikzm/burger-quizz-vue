@@ -27,5 +27,8 @@
     font-family: fontBurgerQuizzTitle;
     font-size: 4rem;
     color: $segundary;
+    &:hover {
+      color: $txt-segundary;
+    }
   }
 }
