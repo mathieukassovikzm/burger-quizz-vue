@@ -74,7 +74,7 @@
   "question7": {
     "question": "Je tire dessus quand j'ai soif",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep3",
     "reponses": {
       "rep1": "Mamelours",
@@ -86,7 +86,7 @@
   "question8": {
     "question": "A plusieurs, nous sommes soeurs",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep2",
     "reponses": {
       "rep1": "Mamelours",
@@ -98,7 +98,7 @@
   "question9": {
     "question": "Je suis de couleur rose pale",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep3",
     "reponses": {
       "rep1": "Mamelours",
@@ -110,7 +110,7 @@
   "question10": {
     "question": "Je ne sors jamais de ma tanière",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Mamelours",
@@ -122,7 +122,7 @@
   "question11": {
     "question": "J'ai un trou à mon extrémité",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep3",
     "reponses": {
       "rep1": "Mamelours",
@@ -134,7 +134,7 @@
   "question12": {
     "question": "J’ai la plus longue",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Mamelours",
@@ -146,7 +146,7 @@
   "question13": {
     "question": "Je suis le masculin d'une des réponses",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Mamelours",
@@ -158,7 +158,7 @@
   "question14": {
     "question": "Mon cousin s'appelle Jean de l'Ours",
     "category": "selpoivre",
-    "team": "ketchup",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Mamelours",
@@ -170,7 +170,7 @@
   "question15": {
     "question": "Je chante comme un gitan",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep3",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -182,7 +182,7 @@
   "question16": {
     "question": "Je n’ai de poils que dans une zone secrète gardée pour la police brésilienne",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -194,7 +194,7 @@
   "question17": {
     "question": "Je mesure 1m67",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep2",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -206,7 +206,7 @@
   "question18": {
     "question": "Qui a chanté « conne mi go »",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -218,7 +218,7 @@
   "question19": {
     "question": "En verlan ça donne « ji ken »",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep2",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -230,7 +230,7 @@
   "question20": {
     "question": "Je suis la perfection",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -242,7 +242,7 @@
   "question21": {
     "question": "Mon 4eme album est une bouze, comme les trois autres d’ailleurs",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep2",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -254,7 +254,7 @@
   "question22": {
     "question": "On me traite de voleur ",
     "category": "selpoivre",
-    "team": "mayo",
+    "team": "",
     "goodrep": "goodrep1",
     "reponses": {
       "rep1": "Bendji Girac",
@@ -682,10 +682,10 @@
     }
   },
   "question58": {
-    "question": "Reprendrais-tu une petite mousse ?",
+    "question": "Quel est la traduction de « mon mec » en Québécois ? ",
     "category": "burger2lamort",
     "team": "ketchup",
-    "goodrep": "Oui",
+    "goodrep": "Mon chum",
     "reponses": {
       "rep1": "",
       "rep2": "",
@@ -694,10 +694,10 @@
     }
   },
   "question59": {
-    "question": "",
+    "question": "Reprendrais-tu une petite mousse ?",
     "category": "burger2lamort",
     "team": "ketchup",
-    "goodrep": "",
+    "goodrep": "Oui",
     "reponses": {
       "rep1": "",
       "rep2": "",

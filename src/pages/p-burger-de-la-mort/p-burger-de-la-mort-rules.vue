@@ -20,11 +20,11 @@ export default {
     goToVideo() {
       if (this.getWinner == "ketchup") {
         this.$router.push({
-          name: "pageBurger2laMortVideoMayo"
+          name: "pageBurger2laMortMayo"
         });
       } else if (this.getWinner == "mayo") {
         this.$router.push({
-          name: "pageBurger2laMortVideoKetchup"
+          name: "pageBurger2laMortKetchup"
         });
       }
     }

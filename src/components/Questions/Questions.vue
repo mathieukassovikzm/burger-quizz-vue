@@ -110,23 +110,23 @@ export default {
 
       if (this.getCountQuestion == this.getNbStartQSelPoivre) {
         this.$router.push({
-          name: "pageSelPoivreRules"
+          name: "pageSelPoivreVideo"
         });
       } else if (this.getCountQuestion == this.getNbStartQMenu) {
         this.$router.push({
-          name: "pageMenusRules"
+          name: "pageMenusVideo"
         });
       } else if (this.getCountQuestion == this.getNbStartQDessert) {
         this.$router.push({
-          name: "pageDessertRules"
+          name: "pageDessertVideo"
         });
       } else if (this.getCountQuestion == this.getNbStartQAddition) {
         this.$router.push({
-          name: "pageAdditionRules"
+          name: "pageAdditionVideo"
         });
       } else if (this.getCountQuestion == this.getNbStartQBurgerDeLaMort) {
         this.$router.push({
-          name: "pageBurger2laMortRules"
+          name: "pageBurger2laMortVideo"
         });
       } else {
         this.$router.push({

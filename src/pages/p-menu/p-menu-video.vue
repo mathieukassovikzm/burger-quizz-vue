@@ -6,14 +6,7 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
-
 export default {
-  computed: {
-    ...mapGetters("questionsStore", {
-      getCountQuestion: "getCountQuestionInStore"
-    })
-  },
   methods: {
     init() {
       var video = document.getElementById("video-container");
@@ -21,8 +14,7 @@ export default {
     },
     onEnd() {
       this.$router.push({
-        name: "question",
-        params: { id: parseInt(this.getCountQuestion) }
+        name: "pageMenusRules"
       });
     }
   },

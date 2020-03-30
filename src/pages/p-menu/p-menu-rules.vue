@@ -14,11 +14,19 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
+  computed: {
+    ...mapGetters("questionsStore", {
+      getCountQuestion: "getCountQuestionInStore"
+    })
+  },
   methods: {
     goToVideo() {
       this.$router.push({
-        name: "pageMenusVideo"
+        name: "question",
+        params: { id: parseInt(this.getCountQuestion) }
       });
     }
   }

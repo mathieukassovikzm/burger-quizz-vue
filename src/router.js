@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import PageHome from './pages/p-home/p-home';
 import PageIntro from './pages/p-intro/p-intro';
+import PageChoixDesEquipes from './pages/p-equipe/p-equipe';
 import PageNuggetsRules from './pages/p-nuggets/p-nuggets-rules';
 import PageNuggetsVideo from './pages/p-nuggets/p-nuggets-video';
 import PageSelPoivreRules from './pages/p-sel-poivre/p-sel-poivre-rules';
@@ -12,9 +13,8 @@ import PageDessertRules from './pages/p-dessert/p-dessert-rules';
 import PageAdditionRules from './pages/p-addition/p-addition-rules';
 import PageAdditionVideo from './pages/p-addition/p-addition-video';
 import PageBurgerDeLaMortRules from './pages/p-burger-de-la-mort/p-burger-de-la-mort-rules';
-import PageBurgerDeLaMortVideoKetchup from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video-ketchup';
+import PageBurgerDeLaMortVideo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video';
 import PageBurgerDeLaMortKetchup from './pages/p-burger-de-la-mort/p-burger-de-la-mort-ketchup';
-import PageBurgerDeLaMortVideoMayo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video-mayo';
 import PageBurgerDeLaMortMayo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-mayo';
 import PageFin from './pages/p-fin/p-fin';
 import ScreenQuestion from './components/ScreenQuestion';
@@ -28,6 +28,11 @@ Vue.use(VueRouter);
 const routes = [
   { path: '/', component: PageHome, name: 'p-home' },
   { path: '/intro', component: PageIntro, name: 'pageIntro' },
+  {
+    path: '/nuggets-equipes',
+    component: PageChoixDesEquipes,
+    name: 'pageChoixEquipes'
+  },
   {
     path: '/nuggets-rules',
     component: PageNuggetsRules,
@@ -71,19 +76,14 @@ const routes = [
     name: 'pageBurger2laMortRules'
   },
   {
-    path: '/burger-de-la-mort-video-mayo',
-    component: PageBurgerDeLaMortVideoMayo,
-    name: 'pageBurger2laMortVideoMayo'
+    path: '/burger-de-la-mort-video',
+    component: PageBurgerDeLaMortVideo,
+    name: 'pageBurger2laMortVideo'
   },
   {
     path: '/burger-de-la-mort-mayo',
     component: PageBurgerDeLaMortMayo,
     name: 'pageBurger2laMortMayo'
-  },
-  {
-    path: '/burger-de-la-mort-video-ketchup',
-    component: PageBurgerDeLaMortVideoKetchup,
-    name: 'pageBurger2laMortVideoKetchup'
   },
   {
     path: '/burger-de-la-mort-ketchup',
