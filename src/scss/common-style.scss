@@ -35,7 +35,6 @@ a {
 }
 button {
   text-rendering: auto;
-  color: buttontext;
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
@@ -48,9 +47,18 @@ button {
   padding: 0.1em;
   border-width: 0px;
   border-style: outset;
-  border-color: buttonface;
   border-image: initial;
   &:focus {
     outline: none;
   }
+}
+
+.title-fin {
+  font-family: fontBurgerQuizzTitle;
+  font-size: 5rem;
+  font-weight: normal;
+  margin-right: 20px;
+  color: $txt-primary;
+  text-align: center;
+  margin-top: 100px;
 }

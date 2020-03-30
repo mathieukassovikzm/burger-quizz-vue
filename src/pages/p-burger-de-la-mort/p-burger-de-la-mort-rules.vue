@@ -13,13 +13,26 @@
 </template>
 
 <script>
+import { mapGetters } from "vuex";
+
 export default {
   methods: {
     goToVideo() {
-      this.$router.push({
-        name: "pageBurger2laMortVideoMayo"
-      });
+      if (this.getWinner == "ketchup") {
+        this.$router.push({
+          name: "pageBurger2laMortVideoMayo"
+        });
+      } else if (this.getWinner == "mayo") {
+        this.$router.push({
+          name: "pageBurger2laMortVideoKetchup"
+        });
+      }
     }
+  },
+  computed: {
+    ...mapGetters("scoresStore", {
+      getWinner: "getWinnerInStore"
+    })
   }
 };
 </script>

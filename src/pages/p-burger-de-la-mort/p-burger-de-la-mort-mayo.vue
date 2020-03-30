@@ -14,7 +14,7 @@
     <div class="container-flex">
       <div class="panel-l">
         <div class="questions" v-show="showGoodAnswers">
-          <div class="question" v-for="(question, index) in questions" v-bind:key="question">
+          <div class="question" v-for="(question, index) in questions" v-bind:key="index">
             <div class="divif" v-if="index<5">
               <h2>{{index+1}}</h2>
               <div class="g-q-r">
@@ -27,7 +27,7 @@
       </div>
       <div class="panel-r">
         <div class="questions" v-show="showGoodAnswers">
-          <div class="question" v-for="(question, index) in questions" v-bind:key="question">
+          <div class="question" v-for="(question, index) in questions" v-bind:key="index">
             <div class="divif" v-if="index>4">
               <h2>{{index+1}}</h2>
               <div class="g-q-r">
@@ -53,8 +53,9 @@ export default {
     };
   },
   computed: {
-    ...mapGetters("questionsStore", {
-      getAllQBdlm: "getAllQBdlmInStore"
+    ...mapGetters({
+      getAllQBdlm: "questionsStore/getAllQBdlmInStore",
+      getWinner: "scoresStore/getWinnerInStore"
     }),
     showGoodAnswers() {
       return this.showAnswer;
@@ -68,9 +69,16 @@ export default {
       this.showAnswer = true;
     },
     nextQuestion() {
-      this.$router.push({
-        name: "pageBurger2laMortVideo2"
-      });
+      console.log(this.getWinner);
+      if (this.getWinner == "mayo") {
+        this.$router.push({
+          name: "pageFin"
+        });
+      } else if (this.getWinner == "ketchup") {
+        this.$router.push({
+          name: "pageBurger2laMortVideoKetchup"
+        });
+      }
     }
   },
   mounted() {

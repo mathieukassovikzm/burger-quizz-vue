@@ -16,6 +16,7 @@ import PageBurgerDeLaMortVideoKetchup from './pages/p-burger-de-la-mort/p-burger
 import PageBurgerDeLaMortKetchup from './pages/p-burger-de-la-mort/p-burger-de-la-mort-ketchup';
 import PageBurgerDeLaMortVideoMayo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-video-mayo';
 import PageBurgerDeLaMortMayo from './pages/p-burger-de-la-mort/p-burger-de-la-mort-mayo';
+import PageFin from './pages/p-fin/p-fin';
 import ScreenQuestion from './components/ScreenQuestion';
 import Questions from './components/Questions/Questions';
 
@@ -88,6 +89,11 @@ const routes = [
     path: '/burger-de-la-mort-ketchup',
     component: PageBurgerDeLaMortKetchup,
     name: 'pageBurger2laMortKetchup'
+  },
+  {
+    path: '/fin',
+    component: PageFin,
+    name: 'pageFin'
   },
   {
     path: '/question',
