@@ -55,6 +55,12 @@
           top: -8px;
           font-size: 2.2rem;
         }
+        &.rep1.goodrep1,
+        &.rep2.goodrep2,
+        &.rep3.goodrep3,
+        &.rep4.goodrep4 {
+          color: $segundary;
+        }
       }
       &.dessert {
         .rep {

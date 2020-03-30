@@ -1,8 +1,8 @@
 <template>
-  <div class="rules">
-    <h1>Choix des équipiers</h1>
+  <div class="equipes">
+    <h1>Choix des equipiers</h1>
 
-    <button type="button" name="button" @click="goToVideo">Les équipes sont faites?</button>
+    <button type="button" name="button" @click="goToVideo">Les equipes sont faites?</button>
   </div>
 </template>
 
@@ -19,4 +19,25 @@ export default {
 </script>
 
 <style lang="scss" >
+.equipes {
+  position: relative;
+  h1,
+  button {
+    margin: 100px auto;
+    font-family: fontBurgerQuizzTitle;
+    font-size: 5rem;
+    text-align: center;
+    color: $txt-primary;
+  }
+  button {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $txt-segundary;
+    margin: auto;
+    &:hover {
+      color: $txt-primary;
+    }
+  }
+}
 </style>

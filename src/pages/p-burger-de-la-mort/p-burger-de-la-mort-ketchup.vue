@@ -71,7 +71,7 @@ export default {
     nextQuestion() {
       if (this.getWinner == "mayo") {
         this.$router.push({
-          name: "pageBurger2laMortVideoMayo"
+          name: "PageBurgerDeLaMortMayo"
         });
       } else if (this.getWinner == "ketchup") {
         this.$router.push({

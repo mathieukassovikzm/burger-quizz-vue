@@ -2,6 +2,7 @@
   <div class="rules">
     <h1>Sel / Poivre</h1>
     <h2>Les règles</h2>
+    <p class="mayo">Quiz de rapidité</p>
     <p class="ketchup">1 questions</p>
     <p class="mayo">3 propositions</p>
     <p class="ketchup">1 seule bonne réponse</p>

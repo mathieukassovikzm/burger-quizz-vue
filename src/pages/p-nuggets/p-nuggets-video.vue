@@ -13,7 +13,7 @@ export default {
     },
     onEnd() {
       this.$router.push({
-        name: "pageNuggetsVideo"
+        name: "pageNuggetsRules"
       });
     }
   },

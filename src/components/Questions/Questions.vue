@@ -118,7 +118,7 @@ export default {
         });
       } else if (this.getCountQuestion == this.getNbStartQDessert) {
         this.$router.push({
-          name: "pageDessertVideo"
+          name: "pageDessertRules"
         });
       } else if (this.getCountQuestion == this.getNbStartQAddition) {
         this.$router.push({
