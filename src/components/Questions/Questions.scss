@@ -63,6 +63,31 @@
         }
       }
     }
+    &.dessert {
+      .ganache {
+        img {
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          height: 300px;
+          width: auto;
+        }
+      }
+      .reponses {
+        .rep {
+          display: flex;
+          flex-wrap: nowrap;
+          .rep-with-photo {
+            width: 33%;
+
+            img {
+              height: auto;
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
   }
 
   &.mayo {
@@ -86,6 +111,12 @@
           &.rep4.goodrep4 {
             color: $mayo;
           }
+        }
+      }
+      .ganache,
+      .rep-with-photo {
+        img {
+          border: solid 4px $mayo;
         }
       }
     }
@@ -112,6 +143,12 @@
           &.rep4.goodrep4 {
             color: $ketchup;
           }
+        }
+      }
+      .ganache,
+      .rep-with-photo {
+        img {
+          border: solid 4px $ketchup;
         }
       }
     }

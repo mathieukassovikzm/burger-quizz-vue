@@ -58,16 +58,50 @@
     </div>
   </div>
 
-  <div class="container-rep" v-show="isQuestionDessert">
+  <div class="container-rep dessert" v-show="isQuestionDessert">
     <h2>A qui appartient ces 3 visages?</h2>
     <div class="ganache">
-      <img src="./../../assets/ganacheKetchup.jpg" />
+      <img
+        src="./../../assets/desserts/ganache-ketchup.jpg"
+        v-if="isTeamKetchup"
+      />
+      <img src="./../../assets/desserts/ganache-mayo.jpg" v-if="isTeamMayo" />
     </div>
-    <div class="reponses dessert">
+    <div class="reponses">
       <div class="rep rep1" v-show="showGoodAnswers">
-        <p>{{getRep1}}</p>
-        <p>{{getRep2}}</p>
-        <p>{{getRep3}}</p>
+        <div class="rep-with-photo">
+          <p>{{getRep1}}</p>
+          <img
+            src="./../../assets/desserts/ganache-ketchup-rep1.jpg"
+            v-if="isTeamKetchup"
+          />
+          <img
+            src="./../../assets/desserts/ganache-mayo-rep1.jpg"
+            v-if="isTeamMayo"
+          />
+        </div>
+        <div class="rep-with-photo">
+          <p>{{getRep2}}</p>
+          <img
+            src="./../../assets/desserts/ganache-ketchup-rep2.jpeg"
+            v-if="isTeamKetchup"
+          />
+          <img
+            src="./../../assets/desserts/ganache-mayo-rep2.jpg"
+            v-if="isTeamMayo"
+          />
+        </div>
+        <div class="rep-with-photo">
+          <p>{{getRep3}}</p>
+          <img
+            src="./../../assets/desserts/ganache-ketchup-rep3.jpg"
+            v-if="isTeamKetchup"
+          />
+          <img
+            src="./../../assets/desserts/ganache-mayo-rep3.jpg"
+            v-if="isTeamMayo"
+          />
+        </div>
       </div>
     </div>
   </div>

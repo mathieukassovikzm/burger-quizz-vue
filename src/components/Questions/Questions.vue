@@ -56,6 +56,16 @@ export default {
       if (this.question != null) return this.question.team;
       else return "";
     },
+    isTeamKetchup() {
+      if (this.question != null)
+        return this.question.team === "ketchup" ? true : false;
+      else return "";
+    },
+    isTeamMayo() {
+      if (this.question != null)
+        return this.question.team === "mayo" ? true : false;
+      else return "";
+    },
     isQuestionNuggets() {
       if (this.question != null)
         return this.question.category === "nuggets" ? true : false;

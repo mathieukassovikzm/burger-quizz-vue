@@ -4,8 +4,8 @@
       <img src="./assets/Burger-Quiz-logo.png" alt />
       <p>
         Annif
-        <span class="ketchup">BenJ</span> &
-        <span class="mayo">Mamel</span>
+        <span class="ketchup">Mamel</span> &
+        <span class="mayo">BenJ</span>
       </p>
     </div>
     <div class="body">
