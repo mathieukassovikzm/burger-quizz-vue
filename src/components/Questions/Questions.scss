@@ -69,20 +69,23 @@
           position: relative;
           left: 50%;
           transform: translateX(-50%);
-          height: 300px;
-          width: auto;
+          max-width: 80%;
+          height: auto;
         }
       }
       .reponses {
         .rep {
           display: flex;
-          flex-wrap: nowrap;
+          flex-direction: column;
           .rep-with-photo {
-            width: 33%;
+            margin-top: 50px;
+            display: block;
+            width: 100%;
+            text-align: center;
 
             img {
+              max-width: 80%;
               height: auto;
-              width: 200px;
             }
           }
         }
