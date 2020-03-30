@@ -76,7 +76,7 @@ export default {
         });
       } else if (this.getWinner == "ketchup") {
         this.$router.push({
-          name: "PageBurgerDeLaMortKetchup"
+          name: "pageBurger2laMortKetchup"
         });
       }
     }
