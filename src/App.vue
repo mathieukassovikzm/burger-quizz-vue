@@ -4,8 +4,8 @@
       <img src="./assets/Burger-Quiz-logo.png" alt />
       <p>
         Annif
-        <span class="ketchup">Mamel</span> &
-        <span class="mayo">BenJ</span>
+        <span class="ketchup" @click="goToBurgerMortKetchup">Mamel</span> &
+        <span class="mayo" @click="goToBurgerMortMayo">BenJ</span>
       </p>
     </div>
     <div class="body">

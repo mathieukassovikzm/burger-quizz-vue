@@ -12,14 +12,14 @@
     }
   },
   "question2": {
-    "question": "En afganistan, le bouzkachi est",
+    "question": "En Afghanistan, le bouzkachi est",
     "category": "nuggets",
     "team": "mayo",
     "goodrep": "goodrep3",
     "reponses": {
-      "rep1": "La boite la plus branchee de Kaboul",
-      "rep2": "Une lotion apres rasage",
-      "rep3": "Un sport equestre ou on se dispute une chevre decapitee",
+      "rep1": "La boite la plus branchée de Kaboul",
+      "rep2": "Une lotion après rasage",
+      "rep3": "Un sport équestre ou on se dispute une chèvre décapitée",
       "rep4": "Un plat à base de ciment"
     }
   },
@@ -36,13 +36,13 @@
     }
   },
   "question4": {
-    "question": "Dans l’antiquite, sur quoi les Romains pretaient-ils serment ?",
+    "question": "Dans l’antiquité, sur quoi les Romains pretaient-ils serment ?",
     "category": "nuggets",
     "team": "mayo",
     "goodrep": "goodrep4",
     "reponses": {
       "rep1": "Une bible comme tout le monde",
-      "rep2": "Les lauriers de cesar",
+      "rep2": "Les lauriers de César",
       "rep3": "Un album d’axterix",
       "rep4": "Leurs testicules"
     }
@@ -60,12 +60,12 @@
     }
   },
   "question6": {
-    "question": "En turc, « Hepatite B » se dit? ",
+    "question": "En turc, « Hépatite B » se dit? ",
     "category": "nuggets",
     "team": "mayo",
     "goodrep": "goodrep1",
     "reponses": {
-      "rep1": "Je n’en ai aucune idee",
+      "rep1": "Je n’en ai aucune idée",
       "rep2": "Doner Kebab",
       "rep3": "Yustlur",
       "rep4": "Yilzek B"
@@ -78,7 +78,7 @@
     "goodrep": "goodrep3",
     "reponses": {
       "rep1": "Mamelours",
-      "rep2": "Mamelle d'ours",
+      "rep2": "Mamelles d'ours",
       "rep3": "Les deux",
       "rep4": ""
     }
@@ -240,7 +240,7 @@
     }
   },
   "question21": {
-    "question": "Mon 4eme album est une bouze, comme les trois autres d’ailleurs",
+    "question": "Mon 4ème album est une bouze, comme les trois autres d’ailleurs",
     "category": "selpoivre",
     "team": "",
     "goodrep": "goodrep2",
@@ -265,7 +265,7 @@
   },
   "question23": {
     "question": "Où vit le grizzly, sous-espèce de l'ours brun ?",
-    "category": "menu",
+    "category": "mayo",
     "team": "ketchup",
     "goodrep": "Mon petit ours brun",
     "reponses": {
@@ -277,7 +277,7 @@
   },
   "question24": {
     "question": "Quel est la traduction de Mamelours en espagnol ?",
-    "category": "menu",
+    "category": "mayo",
     "team": "ketchup",
     "goodrep": "Mon petit ours brun",
     "reponses": {
@@ -289,7 +289,7 @@
   },
   "question25": {
     "question": "Combien l'ourse possède-t-elle de paires de mamelles ?",
-    "category": "menu",
+    "category": "mayo",
     "team": "ketchup",
     "goodrep": "Mon petit ours brun",
     "reponses": {
@@ -301,7 +301,7 @@
   },
   "question26": {
     "question": "Quel est l’acte sexuel favorite de l’ours ?",
-    "category": "menu",
+    "category": "mayo",
     "team": "ketchup",
     "goodrep": "Mon petit ours brun",
     "reponses": {
@@ -314,7 +314,7 @@
   "question27": {
     "question": "Qui a dit : « Je n'aime pas la façon dont mes dents se font saillie. Je vais les faire faire, mais je n'ai tout simplement pas eu le temps. En dehors de cela... je suis parfait » ?",
     "category": "menu",
-    "team": "mayo",
+    "team": "ketchup",
     "goodrep": "Girac, la perfection au masculin",
     "reponses": {
       "rep1": "Freddy Mercury",
@@ -326,7 +326,7 @@
   "question28": {
     "question": "Qui a chanté « l’homme parfait » en 2019 ?",
     "category": "menu",
-    "team": "mayo",
+    "team": "ketchup",
     "goodrep": "Girac, la perfection au masculin",
     "reponses": {
       "rep1": "Lynda Sherazade",
@@ -338,7 +338,7 @@
   "question29": {
     "question": "En quelle année est sortie le film « l’homme parfait » ?",
     "category": "menu",
-    "team": "mayo",
+    "team": "ketchup",
     "goodrep": "Girac, la perfection au masculin",
     "reponses": {
       "rep1": "2005",
@@ -350,7 +350,7 @@
   "question30": {
     "question": "Quel est la traduction de parfait en portugais ?",
     "category": "menu",
-    "team": "mayo",
+    "team": "ketchup",
     "goodrep": "Girac, la perfection au masculin",
     "reponses": {
       "rep1": "perfeito",
