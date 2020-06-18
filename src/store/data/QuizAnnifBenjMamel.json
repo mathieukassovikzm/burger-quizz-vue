@@ -265,8 +265,8 @@
   },
   "question23": {
     "question": "Où vit le grizzly, sous-espèce de l'ours brun ?",
-    "category": "mayo",
-    "team": "ketchup",
+    "category": "menu",
+    "team": "mayo",
     "goodrep": "Mon petit ours brun",
     "reponses": {
       "rep1": "Au nord des Etats-Unis / Canada / Gouezec",
@@ -277,8 +277,8 @@
   },
   "question24": {
     "question": "Quel est la traduction de Mamelours en espagnol ?",
-    "category": "mayo",
-    "team": "ketchup",
+    "category": "menu",
+    "team": "mayo",
     "goodrep": "Mon petit ours brun",
     "reponses": {
       "rep1": "Mameloso",
@@ -289,8 +289,8 @@
   },
   "question25": {
     "question": "Combien l'ourse possède-t-elle de paires de mamelles ?",
-    "category": "mayo",
-    "team": "ketchup",
+    "category": "menu",
+    "team": "mayo",
     "goodrep": "Mon petit ours brun",
     "reponses": {
       "rep1": "2",
@@ -301,8 +301,8 @@
   },
   "question26": {
     "question": "Quel est l’acte sexuel favorite de l’ours ?",
-    "category": "mayo",
-    "team": "ketchup",
+    "category": "menu",
+    "team": "mayo",
     "goodrep": "Mon petit ours brun",
     "reponses": {
       "rep1": "La pipe au miel",

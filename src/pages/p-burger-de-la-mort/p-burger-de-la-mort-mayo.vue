@@ -69,12 +69,11 @@ export default {
       this.showAnswer = true;
     },
     nextQuestion() {
-      console.log(this.getWinner);
       if (this.getWinner == "mayo") {
         this.$router.push({
           name: "pageFin"
         });
-      } else if (this.getWinner == "ketchup") {
+      } else {
         this.$router.push({
           name: "pageBurger2laMortKetchup"
         });

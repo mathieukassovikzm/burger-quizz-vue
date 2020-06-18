@@ -4,8 +4,8 @@
       <img src="./assets/Burger-Quiz-logo.png" alt />
       <p>
         Annif
-        <span class="ketchup" @click="goToBurgerMortKetchup">Mamel</span> &
-        <span class="mayo" @click="goToBurgerMortMayo">BenJ</span>
+        <a @click="goToBurgerMortKetchup" class="ketchup">Mamel</a> &
+        <a @click="goToBurgerMortMayo" class="mayo">BenJ</a>
       </p>
     </div>
     <div class="body">
@@ -22,7 +22,24 @@ export default {
   methods: {
     ...mapActions("questionsStore", {
       setQuestionsList: "fetchQuestions"
-    })
+    }),
+    ...mapActions("scoresStore", {
+      setWinnerKetchup: "setWinnerKetchupInStore",
+      setWinnerMayo: "setWinnerMayoInStore"
+    }),
+    goToBurgerMortKetchup(){
+      this.setWinnerKetchup();
+      this.goToBM();
+    },
+    goToBurgerMortMayo(){
+      this.setWinnerMayo();
+      this.goToBM();
+    },
+    goToBM(){
+      this.$router.push({
+        name: "pageBurger2laMortVideo"
+      });
+    }
   },
   created() {
     this.setQuestionsList();

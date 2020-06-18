@@ -69,13 +69,13 @@ export default {
       this.showAnswer = true;
     },
     nextQuestion() {
-      if (this.getWinner == "mayo") {
-        this.$router.push({
-          name: "PageBurgerDeLaMortMayo"
-        });
-      } else if (this.getWinner == "ketchup") {
+      if (this.getWinner == "ketchup") {
         this.$router.push({
           name: "pageFin"
+        });
+      } else {
+        this.$router.push({
+          name: "pageBurger2laMortMayo"
         });
       }
     }

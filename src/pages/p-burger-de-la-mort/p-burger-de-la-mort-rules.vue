@@ -13,10 +13,14 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters, mapActions } from "vuex";
 
 export default {
   methods: {
+    ...mapActions("questionsStore", {
+      setWinnerKetchup: "setWinnerKetchupInStore",
+      setWinnerMayo: "setWinnerMayoInStore"
+    }),
     goToVideo() {
       if (this.getWinner == "ketchup") {
         this.$router.push({
@@ -25,6 +29,12 @@ export default {
       } else if (this.getWinner == "mayo") {
         this.$router.push({
           name: "pageBurger2laMortKetchup"
+        });
+      }
+      else{
+        this.setWinnerKetchup();
+        this.$router.push({
+          name: "pageBurger2laMortMayo"
         });
       }
     }

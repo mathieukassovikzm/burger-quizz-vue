@@ -35,7 +35,6 @@ const mutations = {
       state.scoreKetchup--;
     }
   },
-
   INCREMENTKETCHUP: state => {
     if (state.scoreKetchup < 25) {
       state.scoreKetchup++;
@@ -43,10 +42,22 @@ const mutations = {
     if (state.scoreKetchup + 1 === 25 && state.scoreMayo < 25) {
       state.winner = 'ketchup';
     }
-  }
+  },
+  WINNERKETCHUP: state => {
+    state.winner = 'ketchup';
+  },
+  WINNERMAYO: state => {
+    state.winner = 'mayo';
+  },
 };
 
 const actions = {
+  setWinnerKetchupInStore(store){
+    store.commit('WINNERKETCHUP');
+  },
+  setWinnerMayoInStore(store){
+    store.commit('WINNERMAYO');
+  },
   decrementMayoInStore(store) {
     store.commit('DECREMENTMAYO');
   },
