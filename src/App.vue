@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
     <div class="header">
       <img src="./assets/Burger-Quiz-logo.png" alt />
       <p>
